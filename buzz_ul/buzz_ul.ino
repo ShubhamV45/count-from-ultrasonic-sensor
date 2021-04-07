@@ -141,8 +141,6 @@ if(distance <= 10 && distance >= 0){
 ++i;
 digitalWrite(buzzPin, HIGH);
  display_number(i);
- here:delay(6);
-
 } else {
 // Don't buzz
 digitalWrite(buzzPin, LOW);
